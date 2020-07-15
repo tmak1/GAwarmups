@@ -1,0 +1,57 @@
+
+#services-tab {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.card {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 450px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+  }
+
+.card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card ul li{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+#webdesign {
+    position: relative;
+}
+
+#coding {
+    position: relative;
+}
+
+#coding-sub {
+    display: none;
+    position: absolute;
+    top: 137px;
+    background-color: blueviolet;
+}
+
+#coding-sub li:hover {
+    background-color: lightcoral;
+}
